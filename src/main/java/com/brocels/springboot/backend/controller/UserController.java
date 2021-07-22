@@ -19,7 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.brocels.springboot.backend.model.User;
 import com.brocels.springboot.backend.repository.UserRepository;
 
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin()
 @RestController
 @RequestMapping("api/")
 public class UserController {
